@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#915eff"/>
+      <stop offset="50%" stop-color="#00bfff"/>
+      <stop offset="100%" stop-color="#ff6b9d"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0533"/>
+      <stop offset="100%" stop-color="#050816"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Hexagon background -->
+  <polygon
+    points="32,2 58,17 58,47 32,62 6,47 6,17"
+    fill="url(#g2)"
+    stroke="url(#g1)"
+    stroke-width="2"
+    filter="url(#glow)"
+  />
+
+  <!-- Inner hex ring -->
+  <polygon
+    points="32,10 52,21 52,43 32,54 12,43 12,21"
+    fill="none"
+    stroke="url(#g1)"
+    stroke-width="0.8"
+    opacity="0.4"
+  />
+
+  <!-- D lettermark -->
+  <text
+    x="32"
+    y="44"
+    text-anchor="middle"
+    font-size="30"
+    font-weight="800"
+    font-family="'Inter', 'SF Pro Display', 'Helvetica Neue', sans-serif"
+    fill="url(#g1)"
+    filter="url(#glow)"
+    letter-spacing="-1"
+  >D</text>
+</svg>

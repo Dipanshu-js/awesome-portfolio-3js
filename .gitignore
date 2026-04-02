@@ -1,0 +1,8 @@
+node_modules
+.vercel
+.claude
+.env*.local
+dist
+.DS_Store
+.vscode
+.idea
