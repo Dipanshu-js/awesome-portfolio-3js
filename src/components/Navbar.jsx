@@ -91,7 +91,7 @@ const Navbar = () => {
             style={{ border: "2px solid rgba(145,94,255,0.6)", boxShadow: "0 0 10px rgba(145,94,255,0.4)" }}
           />
           <motion.p
-            className='text-white text-[18px] font-bold cursor-pointer flex flex-col items-start'
+            className='text-white text-[18px] font-bold cursor-pointer flex items-center'
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -106,16 +106,9 @@ const Navbar = () => {
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
                 textFillColor: "transparent",
-                lineHeight: 1.1,
               }}
             >
               {"</"}Dipanshu Singh{">"}
-            </span>
-            <span style={{
-              fontSize: 10, fontWeight: 500, letterSpacing: "0.08em",
-              color: "rgba(0,191,255,0.6)", lineHeight: 1, marginTop: 1,
-            }}>
-              ✨ aaansh
             </span>
           </motion.p>
         </Link>

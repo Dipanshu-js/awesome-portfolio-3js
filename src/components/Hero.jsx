@@ -141,28 +141,6 @@ const Hero = () => {
             <WavingHand />
           </motion.h1>
 
-          {/* Nickname badge */}
-          <motion.div
-            className="mt-2 mb-1 inline-flex items-center gap-1.5 px-3 py-1 rounded-full"
-            style={{
-              background: "rgba(0,191,255,0.08)",
-              border: "1px solid rgba(0,191,255,0.25)",
-              backdropFilter: "blur(8px)",
-            }}
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.25 }}
-          >
-            <span style={{ fontSize: 13 }}>✨</span>
-            <span style={{ color: "rgba(170,166,195,0.7)", fontSize: 12, fontWeight: 500 }}>also known as</span>
-            <span style={{
-              fontSize: 13, fontWeight: 700,
-              background: "linear-gradient(90deg, #00bfff, #915eff)",
-              WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
-            }}>Aaansh</span>
-            <span style={{ fontSize: 13 }}>✨</span>
-          </motion.div>
-
           <motion.p
             className={`${styles.heroSubText} mt-2 text-white-100`}
             initial={{ opacity: 0, y: 20 }}
