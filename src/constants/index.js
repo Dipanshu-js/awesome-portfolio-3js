@@ -84,12 +84,12 @@ const education = [
     ],
   },
   {
-    title: "Bachelor of Technology — Computer Science",
+    title: "Bachelor of Technology",
     company_name: "Noida Institute of Engineering & Technology, Greater Noida",
     icon: niet,
     iconBg: "#fff",
     date: "2016 – 2020",
-    points: ["B.Tech in Computer Science & Engineering."],
+    points: ["B.Tech"],
   },
 ];
 
