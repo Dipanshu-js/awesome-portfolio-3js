@@ -24,10 +24,7 @@
 ---
 
 ## About
-
-Personal portfolio of **Dipanshu Singh** (aka *Aaansh*) — 4+ years building real-time IoT dashboards, LLM-powered applications, and production-grade React/Next.js frontends.
-
-**Live:** https://dipanshusingh.vercel.app &nbsp;|&nbsp; **Resume:** https://dipanshusingh.vercel.app/resume
+**Live:** https://dipanshusingh.vercel.app &nbsp;|&nbsp;
 
 ---
 
@@ -94,7 +91,7 @@ vercel --prod
 ## Connect
 
 <p>
-  <a href="https://linkedin.com/in/dipanshu-singh">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/dipanshu-s-4b3b0b19b/">LinkedIn</a> &nbsp;·&nbsp;
   <a href="https://github.com/Dipanshu-js">GitHub</a> &nbsp;·&nbsp;
   <a href="mailto:dipanshusin28@gmail.com">Email</a> &nbsp;·&nbsp;
   <a href="https://dipanshusingh.vercel.app">Portfolio</a>
